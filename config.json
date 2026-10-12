@@ -1,0 +1,22 @@
+{
+  "origins": ["TPE", "TSA"],
+  "destinations": ["NRT", "HND"],
+
+  "outbound_weekday": "THU",
+  "outbound_depart_window": [5, 12],
+
+  "return_options": [
+    { "label": "Sat", "days_after_outbound": 2, "depart_window": [12, 24], "enabled": true },
+    { "label": "Sun", "days_after_outbound": 3, "depart_window": [12, 24], "enabled": false }
+  ],
+
+  "weeks_ahead": 12,
+  "adults": 1,
+  "seat": "economy",
+  "max_stops": 0,
+  "currency": "TWD",
+
+  "alert_price": 10000,
+  "top_n_per_direction": 3,
+  "request_delay_seconds": [2, 5]
+}

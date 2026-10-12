@@ -1,0 +1,5 @@
+fast-flights==3.1.0
+# imported by fast-flights but not declared as its dependency
+typing_extensions
+# time-zone data for zoneinfo on Windows
+tzdata
